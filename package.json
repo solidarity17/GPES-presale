@@ -1,0 +1,88 @@
+{
+	"name": "data-vortex-ai",
+	"author": "andrii savchenko",
+	"homepage": "/",
+	"version": "0.1.1",
+	"private": true,
+	"dependencies": {
+		"@tanstack/react-query": "^5.29.0",
+		"@wagmi/core": "^2.9.8",
+		"@web3modal/wagmi": "^4.1.6",
+		"axios": "^1.6.2",
+		"ethers": "^6.12.1",
+		"highcharts": "^11.1.0",
+		"javascript-time-ago": "^2.5.9",
+		"react": "^18.2.0",
+		"react-animate-on-scroll": "^2.1.9",
+		"react-date-picker": "^10.5.0",
+		"react-dom": "^18.2.0",
+		"react-error-overlay": "^6.0.11",
+		"react-helmet": "^6.1.0",
+		"react-loading-skeleton": "^3.3.1",
+		"react-multi-carousel": "^2.8.5",
+		"react-notifications": "^1.7.4",
+		"react-router-dom": "^6.14.1",
+		"react-toastify": "^10.0.5",
+		"react-tsparticles": "^2.12.2",
+		"react-use-websocket": "^4.2.0",
+		"recharts": "^2.7.3",
+		"remark-gfm": "^3.0.1",
+		"styled-components": "^6.0.5",
+		"tsparticles-slim": "^2.12.0",
+		"typewriter-effect": "^2.21.0",
+		"use-wallet2": "^0.1.5",
+		"uuid": "^8.3.2",
+		"viem": "2.x",
+		"wagmi": "^2.9.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.7",
+		"@babel/plugin-syntax-import-assertions": "^7.23.3",
+		"@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+		"@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+		"@types/react": "^18.2.14",
+		"@types/react-avatar-editor": "^13.0.2",
+		"@types/react-dom": "^18.2.6",
+		"@types/react-helmet": "^6.1.11",
+		"@types/react-router-dom": "^5.3.3",
+		"@types/uuid": "^9.0.7",
+		"@vitejs/plugin-react": "^4.2.1",
+		"colors": "^1.4.0",
+		"esbuild": "^0.19.12",
+		"node-sass": "^9.0.0",
+		"react-scripts": "^5.0.1",
+		"rollup-plugin-polyfill-node": "^0.13.0",
+		"sass": "^1.70.0",
+		"typescript": "^5.4.5",
+		"url": "^0.11.1",
+		"vite": "^5.0.12",
+		"vite-tsconfig-paths": "^4.3.1"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"resolutions": {
+		"react-error-overlay": "6.0.9"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"packageManager": "yarn@1.22.22"
+}

@@ -1,0 +1,18 @@
+{
+	"debug": true,
+	"appId": "data-vortex-ai",
+	"api": "ws://127.0.0.1:10001",
+	"domain": "",
+	"construction": false,
+	"showCountry": false,
+	"defaultThemeDark": false,
+	"links": {
+		"twitter": "https://twitter.com/x",
+		"facebook": "https://facebook.com/x",
+		"linkedin": "https://linkedin.com/x",
+		"youtube": "https://youtube.com/x",
+		"telegram": "https://t.me/x",
+		"medium": "https://medium.com/x",
+		"discord": "https://discord.com/x"
+	}
+}
