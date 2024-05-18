@@ -182,12 +182,12 @@ const Home = () => {
 										<div className="row gap" style={{ padding: "0px 1em" }}>
 											<div className="col-lg-6 col-sm-12 ">
 												<div className="d between">
-													<p style={{ fontSize: "0.9em", fontWeight: "600" }}>Enter ETH amount</p>
+													<p style={{ fontSize: "0.9em", fontWeight: "600" }}>Enter BNB amount</p>
 													<p style={{ fontSize: "0.9em", fontWeight: "600" }}>Sell</p>
 												</div>
 												<div className="info d middle">
 													<OutInput ref={refSell} type='number' placeholder='0.00' min={MIN_TRADE} max={MAX_TRADE} value={state.sell} onChange={e => setStates({ ...state, sell: Number(e.target.value) })} />
-													<img src="/img/eth.png" alt="" width={30} height={30} />
+													<img src="/img/bnb.png" alt="" width={30} height={30} />
 												</div>
 											</div>
 											<div className="col-lg-6 col-sm-12">
